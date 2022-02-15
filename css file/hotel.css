@@ -1,0 +1,63 @@
+.h-02_mlm {
+    background: #363636;
+    display: block;
+}
+
+.port-items {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.frame_wrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.project_hl_mlm {
+    display: inline-block;
+    background: #222831;
+    /* position: relative; */
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.project_hl_mlm i {
+    color: #1eb2a6;
+    top: -20%;
+    float: right;
+    font-size: 20px;
+}
+
+.project_hl_mlm img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    line-height: 2;
+    /* margin: 10px; */
+}
+
+
+
+.footer a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.footer a:hover {
+    color: #ffa41b;
+    cursor: pointer;
+}

@@ -1,0 +1,122 @@
+.main_banner {
+    background: url(https://4.bp.blogspot.com/-DF_iyL3-bY8/UQtauyCQrpI/AAAAAAAAAZo/pC6bXPQzipU/s1600/_DSC2570+copy.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.main_banner:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.banner_bg_2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0px;
+}
+
+.mlm_title {
+    position: relative;
+}
+
+.mlm_title_1 img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0;
+}
+
+.mlm-title-wrap {
+    text-align: center;
+    line-height: 3;
+    position: relative;
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+
+}
+
+.mlm-title-wrap h1 {
+    font-size: 36px;
+    color: #FFF;
+}
+
+.mlm-title-wrap span {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.mlm-title-wrap h5 {
+    color: #FFF;
+    font-weight: 300;
+}
+
+.mlm-title-wrap img {
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    animation: flag 4s infinite 0s;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes flag {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+}
+
+.fa {
+    color: #fff;
+    text-align: center;
+}
+
+.mlm-title-wrap a {
+    position: absolute;
+    font-size: 12px;
+    border: 1px solid #666;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.mlm-title-wrap a:hover {
+    background: #666;
+    color: #05dfd7;
+    transition: all .5s ease-in-out;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.mlm-title-wrap i:hover {
+    color: #05dfd7;
+}

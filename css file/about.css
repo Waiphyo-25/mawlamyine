@@ -1,0 +1,262 @@
+.about-wrap {
+    padding: 0;
+    margin: 0;
+    background: #272727;
+}
+
+.wrapper_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+/* .line_border {
+    border: 1px solid white;
+    width: 1px;
+    height: 40px;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+
+} */
+
+.wrapper_title h2 {
+    color: #fff;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+/* about left side start  */
+.map_decreption_title {
+    display: inline-block;
+    box-shadow: 0 -1px 30px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+}
+
+.photo_frame img {
+    max-width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.mlm_photo img {
+    max-width: 600px;
+    height: 300px;
+
+}
+
+.location-dot {
+    position: relative;
+    right: 30%;
+    margin: -1%;
+    margin-bottom: -17%;
+    /* left: -3px;
+    top: -3px; */
+    display: inline-block;
+
+}
+
+/* .photo_frame .location-dot {
+    display: inline-block;
+} */
+
+.dot-line-located {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    line-height: 0;
+    border: 2px solid red;
+    background: red;
+    border-radius: 50%;
+}
+
+.mlm-locate {
+    line-height: 50%;
+    position: absolute;
+    top: 4px;
+    left: -3em;
+    text-align: center;
+    display: inline-block;
+    padding: 1px
+}
+
+.map_footer_direction p {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    line-height: 0.5;
+    text-align: center;
+    padding: 10px;
+}
+
+.map_footer_direction {
+    border-bottom: 1px solid #666;
+}
+
+.about_mlm-list div {
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.about_mlm-list {
+    margin: 20px;
+
+}
+
+.about_mlm-list p {
+    display: inline-block;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+
+.about_mlm-list p:after {
+    content: ':';
+    position: absolute;
+    display: inline-block;
+    right: -10%;
+    text-align: center;
+}
+
+.flag img {
+    width: 60px;
+    height: 30px;
+    left: 5%;
+}
+
+.about_mlm-list a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    position: relative;
+    justify-items: auto;
+    color: #fff;
+}
+
+.link {
+    display: inline-block;
+    position: relative;
+    /* left: 10%; */
+    margin-right: -30px;
+    line-height: 3;
+
+}
+
+/* about left side end */
+
+/* about middle start */
+.about-list-m {
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    padding: 10px;
+
+}
+
+.list_nationality h6 {
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0779e4;
+}
+
+.list_nationality a {
+    color: #0779e4;
+    line-height: normal;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list_nationality a:hover {
+    color: #43d8c9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link a {
+    color: #0779e4;
+}
+
+.link a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* mlm-history start */
+.mlm_history h5 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.mlm_history h5 a span {
+    color: #fff;
+}
+
+.mlm_history h5 a span:hover {
+    color: #fcbf1e;
+    cursor: pointer;
+}
+
+.mlm_history p {
+    color: #fff;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+
+/* mlm-history end */
+
+/* .about_mlm {
+    box-shadow: 0 -1px 30px rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    position: relative;
+}
+
+.about_mlm h2 {
+    font-size: 36px;
+    font-weight: 600;
+    display: block;
+    position: relative;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.about_mlm h2:hover {
+    color: #43d8c9;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.about_mlm p {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: left;
+    justify-items: center;
+}
+
+.about_mlm h2:before {
+    content: '~~~';
+    position: relative;
+    bottom: 0;
+    top: 0;
+    margin-right: 8px;
+}
+
+.about_mlm h2::after {
+    content: '~~~';
+    position: relative;
+    bottom: 0;
+    top: 0;
+    margin-left: 8px;
+} */

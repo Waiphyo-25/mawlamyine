@@ -1,0 +1,99 @@
+.things_todo_wrapper {
+    position: relative;
+    background: url(../image/thanlwin\ bridge\ cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.things_todo_wrapper:before {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, .8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.wrap_section_all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo_frame_section img {
+    max-width: 600px;
+    height: 350px;
+    padding: 20px;
+    justify-items: center;
+
+}
+
+.wrap_section_all {
+    background: transparent;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 -1px 30px rgba(255, 255, 255, 0.4);
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: url(../image/strandroad1.jpg);
+    opacity: 0;
+    transition: .20s ease-in;
+    cursor: pointer;
+}
+
+.overlay .overlay_image {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    vertical-align: center;
+}
+
+.wrap_section_all img:hover .overlay {
+    opacity: 1;
+} */
+
+/* .wrap_section_all:before {
+    position: absolute;
+    content: '';
+    background: rgba(255, 255, 255, .2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
+
+.des_wrap_title h5 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.des_wrap_title p {
+    color: #fff;
+    font-weight: normal;
+}
+
+.photo-footer {
+    color: #fff;
+}
+
+.photo-footer p {
+    text-align: center;
+}
+
+.tg_005_pic img {
+    vertical-align: middle;
+}
